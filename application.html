@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body style="margin: 80px;">
+    <h1 align="center">Application Form</h1>
+    <form action="" style="color">
+        <p style="background-color: #6f84a1; color: white;">A. General Questions</p>
+        <br>
+       
+    <!--Proposed name-->
+        <label for="name">Proposed Insured's Name:</label>
+        <input type="text" size="107.5" placeholder="e.g:John Smite" id="name">
+        <br>
+        <br>
+
+    <!--DOB-->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" style="width: 250px;" id="dob">
+        &nbsp;&nbsp;&nbsp;
+
+    <!--Gender-->
+        <label for="">Gender:</label>
+        <input type="radio" style="width: 80px" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" style="width: 80px;" id="female" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" style="width: 80px;" id="custom" name="gender">
+        <label for="custom">Custom</label>
+        <br><br>
+    <!--Address-->
+        <label for="address">Address:</label>
+        <input type="text" id="address" size="125">
+        <br>
+        <br>
+    
+    <!--Phone Number & Email Address-->
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" style="width: 280px;" placeholder="e.g:0155123456">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" style="width: 311px;" placeholder="e.g: example@mail.com">
+        <br>
+        <br>
+
+    <!--ID & Security no-->
+        <label for="idnumber">ID Number:</label>
+        <input type="text" id="idnumber" style="width: 278px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="socialsecurity">Social Security Number:</label>
+        <input type="text" id="socialsecurity" style="width: 278px;">
+        <br>
+        <br>
+    
+    <!--Status-->
+        <label for="">Status:</label>
+        
+        <input type="radio" id="single" name="status">
+        <label for="single">Single</label>
+        <input type="radio" id="married" name="status">
+        <label for="married">Married</label>
+        <input type="radio" id="devorced" name="status">
+        <label for="devorced">Devorced</label>
+        <input type="radio" id="other" name="status">
+        <label for="other">Other</label>
+        <br>
+        <br>
+
+    <!--Occupation & retiree?-->
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" style="width: 400px;">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="">Are you retiree?</label>
+        <input type="radio" id="yes" style="width: 50px" name="retiree">
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" style="width: 50px;" name="retiree">
+        <label for="no">No</label>
+        <br>
+        <br>
+
+
+        <p style="background-color: #6f84a1; color: white;">B. Type of Health Coverage</p>
+        
+    <!--table-->
+        <table border="0" width="100%">
+            <td width="33.33%">
+                Employee:
+                <input type="radio" id="employeeyes" name="employee">
+                <label for="employeeyes">Yes</label>
+                <input type="radio" id="employeeno" name="employee">
+                <label for="employeeno">NO</label>
+                
+            </td>
+
+            <td width="33.33%" align="center">
+                Spouse:
+                <input type="radio" id="spouseyes" name="Spouse">
+                <label for="spouseyes">Yes</label>
+                <input type="radio" id="spouseno" name="Spouse">
+                <label for="spouseno">No</label>
+            </td>
+                
+            <td width="33.33%" align="right">
+                Children:
+                <input type="radio" id="childrenyes" name="Children">
+                <label for="childrenyes">Yes</label>
+                <input type="radio" id="childrenno" name="Children">
+                <label for="childrenno">No</label>
+            </td>
+        </table>
+        <br>
+        
+        <p>Complete If Spouse/Children are Proposed for Insurance:</p>
+    
+    <!--TABLE 2-->
+        <table border="1" width="100%">
+            <tr align="center">
+                <td width="16.67%">Name</td>
+                <td width="16.67%">SSN No.</td>
+                <td width="16.67%">Relationship to<br>proposed insured</td>
+                <td width="16.67%">Birth<br>Date</td>
+                <td width="16.67%">Age</td>
+                <td width="16.67%">Gender</td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td><input type="number" min="0"></td>
+                <td><select name="" id="" style="width: 100px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td><input type="number" min="0"></td>
+                <td><select name="" id="" style="width: 100px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td><input type="number" min="0"></td>
+                <td><select name="" id="" style="width: 100px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td><input type="number" min="0"></td>
+                <td><select name="" id="" style="width: 100px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td><input type="number" min="0"></td>
+                <td><select name="" id="" style="width: 100px;">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+
+        <p style="background-color: #6f84a1; color: white;">C. The Policy</p>
+        <br>
+
+    <!--units & annual premium--> 
+        <label for="units">Units:</label>
+        <input type="text" id="units" size="50">
+        &nbsp;&nbsp;&nbsp;
+        <label for="annualpremium">Annual Premium:</label>
+        <input type="text" id="annualpremium" size="51">
+        <br>
+        <br>
+        
+    <!--payment mode-->
+        <label for="">Payment Mode:</label>
+
+        <input type="radio" id="payment" style="width: 80px" name="payment">
+        <label for="payment">Annual</label>
+        <input type="radio" id="semiannual" style="width: 80px" name="payment">
+        <label for="semiannual"> Semi-Annual</label>
+        <input type="radio" id="monthlypat" style="width: 80px;" name="payment">
+        <label for="monthlypat">Monthly PAT (complete PAT card)
+        <br>
+        <br>
+                
+    <!--Cash with Application-->
+        <label for="cwa">Cash with Application:</label>
+        <input type="text" id="cwa" size="110.5" placeholder="$">
+        <br>
+        <br>
+
+    <!--Planned modal Primum:-->
+
+        <label for="PMP">Planned modal Premium:</label>
+        <input type="text" id="PMP" size="108" placeholder="$">
+        <br>
+        <br>
+    
+    <!--Photograph & signature-->      
+        
+        <table border="0" width="100%">
+            <tr>
+                <td>
+                    <label for="">Photograph*</label><br>
+                </td>
+                <td>
+                    <label for="">Signature*</label><br>
+                    
+                </td>
+            </tr>
+            
+            <tr>
+                <td align="left">
+                    <input type="file"><br>
+                    <small>(File type must be jpg or jpeg or png. Maximum file size 2 mb.)</small>
+                </td>
+                <td align="">
+                    
+                    <input type="file"><br>
+                    <small>(File type must be jpg or jpeg or png.Maximum file size 2 mb.)</small>
+                </td>
+            </tr>
+        </table>
+
+        <br><br>
+            <button type="submit">Submit Data</button>
+            <button type="reset">Reset</button>
+        
+        
+
+    </form>
+</body>
+</html>
